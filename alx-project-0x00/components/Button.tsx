@@ -5,7 +5,7 @@ const Button: React.FC<ButtonProps> = ({
   title,
   size = "medium",
   shape = "rounded-md",
-  styles = "",
+  styles, // must exist
 }) => {
   let padding = "px-4 py-2";
   if (size === "small") padding = "px-2 py-1 text-sm";
