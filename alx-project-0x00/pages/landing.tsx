@@ -1,6 +1,6 @@
 // pages/landing.tsx
 import React from "react";
-import Card from "../components/Card";
+import Card from "@/components/Card";
 // use named import to fix the error
 
 const Landing: React.FC = () => {
